@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8fccd58c.css",
-    "main.js": "/static/js/main.8d6f5c52.js",
-    "index.html": "/index.html",
-    "main.8fccd58c.css.map": "/static/css/main.8fccd58c.css.map",
-    "main.8d6f5c52.js.map": "/static/js/main.8d6f5c52.js.map"
+    "main.css": "/MET-CS601-Final-Project/static/css/main.8fccd58c.css",
+    "main.js": "/MET-CS601-Final-Project/static/js/main.8d6f5c52.js",
+    "index.html": "/MET-CS601-Final-Project/index.html",
+    "main.8fccd58c.css.map": "/MET-CS601-Final-Project/static/css/main.8fccd58c.css.map",
+    "main.8d6f5c52.js.map": "/MET-CS601-Final-Project/static/js/main.8d6f5c52.js.map"
   },
   "entrypoints": [
     "static/css/main.8fccd58c.css",
