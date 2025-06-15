@@ -1,7 +1,7 @@
 {
   "name": "my-profile",
   "version": "0.1.0",
-  "homepage": "https://yyouhz.github.io/MET-CS601-Final-Project",
+  "homepage": "https://yyouhz.github.io/MET-CS601-Final-Project/#",
   "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
