@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MET-CS601-FINAL-PROJECT/static/css/main.8fccd58c.css",
+    "main.js": "/MET-CS601-FINAL-PROJECT/static/js/main.2b7ec9c6.js",
+    "index.html": "/MET-CS601-FINAL-PROJECT/index.html",
+    "main.8fccd58c.css.map": "/MET-CS601-FINAL-PROJECT/static/css/main.8fccd58c.css.map",
+    "main.2b7ec9c6.js.map": "/MET-CS601-FINAL-PROJECT/static/js/main.2b7ec9c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8fccd58c.css",
+    "static/js/main.2b7ec9c6.js"
+  ]
+}
