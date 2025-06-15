@@ -2,7 +2,7 @@
   "name": "my-profile",
   "version": "0.1.0",
   "homepage": "https://yyouhz.github.io/MET-CS601-FINAL-PROJECT",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
