@@ -1,0 +1,70 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "E-Commerce Platform",
+            "description": "A full-stack e-commerce application with React frontend and Node.js backend",
+            "category": "web",
+            "tags": [
+                "React",
+                "Node.js",
+                "MongoDB"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Task Management App",
+            "description": "A Kanban-style task management application with drag-and-drop functionality",
+            "category": "web",
+            "tags": [
+                "React",
+                "Redux",
+                "Firebase"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Health Tracker Mobile App",
+            "description": "Mobile application for tracking fitness activities and nutrition",
+            "category": "mobile",
+            "tags": [
+                "React Native",
+                "Health API",
+                "GraphQL"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Portfolio Website",
+            "description": "Personal portfolio website showcasing design and development skills",
+            "category": "design",
+            "tags": [
+                "Figma",
+                "React",
+                "CSS3"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Data Visualization Dashboard",
+            "description": "Interactive dashboard for visualizing business metrics and KPIs",
+            "category": "web",
+            "tags": [
+                "D3.js",
+                "Python",
+                "Flask"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "AI-Powered Chatbot",
+            "description": "Intelligent chatbot for customer support using natural language processing",
+            "category": "ai",
+            "tags": [
+                "Python",
+                "TensorFlow",
+                "NLTK"
+            ]
+        }
+    ]
+}
