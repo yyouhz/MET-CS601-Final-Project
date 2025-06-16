@@ -77,6 +77,7 @@ npm run deploy
 
 ## Project Structure
 
+```
 src/
 ├── components/    # Reusable UI components
 ├── pages/         # Page components
@@ -85,18 +86,17 @@ src/
 ├── App.css        # Main styles
 ├── index.js       # Application entry point
 └── index.css      # Global styles
+```
 
 ## Live Demo
 
 Visit the live website at: [https://yyouhz.github.io/MET-CS601-Final-Project/#](https://yyouhz.github.io/MET-CS601-Final-Project/#)
-
-## Author
-
-Yuhao Wu
-Date: 06-16-2025
 
 ## Acknowledgments
 
 - React Documentation
 - GitHub Pages
 - Wix for layout design [https://www.wix.com/]
+
+**Author:** Yuhao Wu  
+*Last updated: June 16, 2025*
