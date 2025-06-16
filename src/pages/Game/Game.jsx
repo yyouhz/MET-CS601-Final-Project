@@ -1,7 +1,9 @@
+// src/pages/Game/Game.jsx
 import React, { useState, useEffect } from 'react';
 import data from '../../data/game-data.json';
 import './Game.css';
 
+// Game page
 const Game = () => {
     const [words, setWords] = useState([]);
     const [correctAnswers, setCorrectAnswers] = useState([]);
@@ -9,6 +11,7 @@ const Game = () => {
     const [gameOver, setGameOver] = useState(false);
     const [droppedWords, setDroppedWords] = useState([]);
 
+    // Initialize the game
     const initializeGame = () => {
         const allWords = [...data['key words'], ...data['other words']];
         const shuffledWords = allWords.sort(() => Math.random() - 0.5);
@@ -19,18 +22,22 @@ const Game = () => {
         setDroppedWords([]);
     };
 
+    // Initialize the game when the page loads
     useEffect(() => {
         initializeGame();
     }, []);
 
+    // Handle drag start event
     const handleDragStart = (e, word) => {
         e.dataTransfer.setData('text/plain', word);
     };
 
+    // Handle drag over event
     const handleDragOver = (e) => {
         e.preventDefault();
     };
 
+    // Handle drop event
     const handleDrop = (e) => {
         e.preventDefault();
         const word = e.dataTransfer.getData('text/plain');
@@ -46,10 +53,11 @@ const Game = () => {
         }
     };
 
+    // Render the game page
     return (
         <div className="game-container">
             <h2>A Short Game</h2>
-            <p>Drag the correct keywords to the target area</p>
+            <p>Drag the keywords related to me to the target area</p>
             <div className="score">Score: {score}/{correctAnswers.length}</div>
 
             <div className="game-content">

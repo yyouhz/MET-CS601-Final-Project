@@ -1,6 +1,8 @@
+// src/pages/CV/CVSkill.jsx
 import React from 'react';
 import './CV.css';
 
+// CVSkill component
 const CVSkill = ({ title, skills }) => {
   return (
     <div className="skill-category">

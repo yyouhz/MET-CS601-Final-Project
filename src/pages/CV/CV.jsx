@@ -1,8 +1,10 @@
+// src/pages/CV/CV.jsx
 import React from 'react';
 import './CV.css';
 import CVItem from './CVItem';
 import CVSkill from './CVSkill';
 
+// CV page
 const CV = () => {
   return (
     <div className="cv-content">

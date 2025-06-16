@@ -1,3 +1,4 @@
+/* App.css */
 :root {
   --primary: #EEA304;
   --secondary: #FF3E27;
@@ -238,19 +239,19 @@ h4 {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .selfie {
     margin-bottom: 20px;
   }
-  
+
   .selfie-intro {
     text-align: center;
   }
-  
+
   .button-container {
     justify-content: center;
   }
-  
+
   .contact-container {
     flex-direction: column;
   }
@@ -260,24 +261,24 @@ h4 {
   .menu-toggle {
     display: block;
   }
-  
+
   .nav-container {
     width: 100%;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
   }
-  
+
   .nav-container.active {
     max-height: 300px;
   }
-  
+
   .nav-container ul {
     flex-direction: column;
     padding: 20px 0;
     gap: 15px;
   }
-  
+
   .button-cv,
   .button-project,
   .button-contact {
@@ -291,27 +292,27 @@ h4 {
   header {
     padding: 15px;
   }
-  
+
   .header-container h1 a {
     font-size: 1.3rem;
   }
-  
+
   h2 {
     font-size: 2.2rem;
   }
-  
+
   h3 {
     font-size: 1.3rem;
   }
-  
+
   .selfie {
     min-width: 250px;
   }
-  
+
   .button-container {
     gap: 15px;
   }
-  
+
   .button-cv,
   .button-project,
   .button-contact {
@@ -319,7 +320,7 @@ h4 {
     height: 90px;
     font-size: 0.9rem;
   }
-  
+
   .projects-grid {
     grid-template-columns: 1fr;
   }

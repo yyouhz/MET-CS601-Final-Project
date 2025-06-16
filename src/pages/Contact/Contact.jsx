@@ -1,6 +1,8 @@
+// src/pages/Contact/Contact.jsx
 import React, { useState, useEffect } from 'react';
 import './Contact.css';
 
+// Contact page
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -14,6 +16,7 @@ const Contact = () => {
   const [locationError, setLocationError] = useState(null);
   const [cityName, setCityName] = useState(null);
 
+  // Get city name from coordinates using OpenStreetMap API and store in cityName variable
   const getCityFromCoordinates = async (latitude, longitude) => {
     try {
       const response = await fetch(
@@ -30,6 +33,7 @@ const Contact = () => {
     }
   };
 
+  // Get user's location from browser and store in userLocation variable
   useEffect(() => {
     if ("geolocation" in navigator) {
       navigator.geolocation.getCurrentPosition(
@@ -48,6 +52,7 @@ const Contact = () => {
     }
   }, []);
 
+  // Handle form changes and update formData state
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -56,6 +61,7 @@ const Contact = () => {
     }));
   };
 
+  // Handle form submission and update status state
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus('success');
@@ -70,6 +76,7 @@ const Contact = () => {
     }, 3000);
   };
 
+  // Render the contact page
   return (
     <div className="contact-content">
       <h2>Get in Touch</h2>
@@ -98,7 +105,7 @@ const Contact = () => {
           </div>
 
           <div className="info-card">
-            <div className="icon linkedin-icon"></div>
+            <div className="icon linkedin-icon-contact"></div>
             <h4>Linkedin</h4>
             <a href="https://www.linkedin.com/in/yuhao-wu-b8a91231b/"
               target="_blank"

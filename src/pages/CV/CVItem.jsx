@@ -1,6 +1,8 @@
+// src/pages/CV/CVItem.jsx
 import React from 'react';
 import './CV.css';
 
+// CVItem component
 const CVItem = ({ title, time, postion, bulletPoints }) => {
   return (
     <div className="cv-item">

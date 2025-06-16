@@ -1,3 +1,4 @@
+/* Contact page styles */
 .contact-content {
   max-width: 1000px;
   margin: 0 auto;
@@ -53,7 +54,7 @@
   font-size: 24px;
 }
 
-.linkedin-icon::after {
+.linkedin-icon-contact::after {
   content: "💼";
   font-size: 24px;
 }
@@ -63,7 +64,8 @@
   color: var(--dark);
 }
 
-.info-card a, .info-card p {
+.info-card a,
+.info-card p {
   color: #555;
 }
 

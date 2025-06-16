@@ -1,3 +1,4 @@
+// src/components/Header/Header.jsx
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
@@ -5,11 +6,11 @@ import './Header.css';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
-  
+
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
-  
+
   const isActive = (path) => {
     return location.pathname === path ? 'active' : '';
   };
@@ -21,8 +22,8 @@ const Header = () => {
           <span className="dot"></span>
           <Link to="/">Yuhao Wu</Link>
         </h1>
-        <button 
-          className={`menu-toggle ${isMenuOpen ? 'active' : ''}`} 
+        <button
+          className={`menu-toggle ${isMenuOpen ? 'active' : ''}`}
           onClick={toggleMenu}
           aria-label="Toggle navigation"
         >

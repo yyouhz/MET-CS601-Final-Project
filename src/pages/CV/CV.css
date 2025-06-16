@@ -1,11 +1,11 @@
-/* CV Page Styles */
+/* CV page styles */
 .cv-content {
     max-width: 900px;
     margin: 0 auto;
 }
 
 .cv-content h2 {
-  text-align: center;
+    text-align: center;
 }
 
 .download-cv-button {

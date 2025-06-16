@@ -1,16 +1,19 @@
-// src/pages/Projects.jsx
+// src/pages/Projects/Projects.jsx
 import React, { useState } from 'react';
 import projectData from '../../data/project-data.json';
 import './Projects.css';
 
+// Projects page
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState('all');
   const projects = projectData.projects;
 
+  // Filter projects based on active category
   const filteredProjects = activeCategory === 'all'
     ? projects
     : projects.filter(project => project.category === activeCategory);
 
+  // Define categories for filtering projects
   const categories = [
     { id: 'all', name: 'All Projects' },
     { id: 'web', name: 'Web Development' },
@@ -19,6 +22,7 @@ const Projects = () => {
     { id: 'ai', name: 'AI/ML Projects' }
   ];
 
+  // Render the projects page
   return (
     <div className="projects-content">
       <h2>My Projects</h2>
