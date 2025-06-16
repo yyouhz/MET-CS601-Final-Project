@@ -7,7 +7,7 @@ const Home = () => {
     <div className="content-wrapper">
       <div className="selfie">
         <div className="photo-placeholder">
-          <img className='photo-selfie' src='./images/myphoto.jpg' alt='My selfie'></img>
+          <img className='photo-selfie' src='../images/myphoto.jpg' alt='My selfie'></img>
         </div>
       </div>
       <div className="selfie-intro">
