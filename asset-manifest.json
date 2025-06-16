@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MET-CS601-Final-Project/static/css/main.8fccd58c.css",
+    "main.css": "/MET-CS601-Final-Project/static/css/main.c6ca9171.css",
     "main.js": "/MET-CS601-Final-Project/static/js/main.908aa5dc.js",
     "index.html": "/MET-CS601-Final-Project/index.html",
-    "main.8fccd58c.css.map": "/MET-CS601-Final-Project/static/css/main.8fccd58c.css.map",
+    "main.c6ca9171.css.map": "/MET-CS601-Final-Project/static/css/main.c6ca9171.css.map",
     "main.908aa5dc.js.map": "/MET-CS601-Final-Project/static/js/main.908aa5dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fccd58c.css",
+    "static/css/main.c6ca9171.css",
     "static/js/main.908aa5dc.js"
   ]
 }
